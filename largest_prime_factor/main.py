@@ -14,8 +14,8 @@ def largest_prime_fact(n):
             factors.append(i)
     if n > 1:
         factors.append(n)
-    print(factors[-1])
+    return factors[-1]
 
 if __name__ == "__main__":
-    largest_prime_fact(sys.argv[1])
+    print(largest_prime_fact(sys.argv[1]))
 
